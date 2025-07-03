@@ -9,40 +9,58 @@ import RTRTitle from "../assets/RTRTitle.png"
 //List of projects to make a card for each project
 const projects = [
     {
-        id: "p1",
         title: "Money-Man",
         image: MMTitle,
         description: "Money Managment Application using Android Studio & Firebase",
+        link: "/projects/money-man",
     },
     {
-        id: "p2",
         title: "SQUEEZE!",
         image: STitle,
         description: "2D Financial Literacy Simulation Game using Unity & C#",
+        link: "/projects/squeeze",
     },
     {
-        id: "p3",
         title: "CatChaos",
         image: CCTitle,
         description: "3D Cat Simulator game using Unity & C#",
+        link: "/projects/catchaos",
     },
     {
-        id: "p4",
         title: "Rare Task Reminder",
         image: RTRTitle,
         description: "Rare Task Reminder website using HTML/CSS/JS",
+        link: "/projects/rare-task-reminder",
     },
 ]
 //#endregion
 
-const Projects = () => (
-    <div className="Title">
-        <h1>Projects</h1>
-        <h2>Here are some of my favorite projects that I've worked on.</h2>
-        <h2>Click on a project to learn more about it.</h2>
+const Projects = () => {
+    return (
+        <div>
+            <div className="Title">
+                <h1>Projects</h1>
+                <h2>Here are some of my favorite projects that I've worked on.</h2>
+                <h2>Click on a project to learn more about it.</h2>
+            </div>
 
-        
-    </div>
-);
+            <div className="projects-container">
+                {projects.map((project) =>
+                    <Link 
+                        key={project.title}
+                        to={project.link}
+                        className="project-card"
+                    >
+                        <img className="project-image" src={project.image} alt={project.title}/>
+                        <div className="project-info">
+                            <h3 className="title-text">{project.title}</h3>
+                            <p className="desc-text">{project.description}</p>
+                        </div>
+                    </Link>
+                )}
+            </div>
+        </div>
+    );
+};
 
 export default Projects;

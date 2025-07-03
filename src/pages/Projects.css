@@ -7,3 +7,49 @@
     text-align: center;
 }
 
+.project-image {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+    flex-direction: column;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 12px 16px;
+    transition: box-shadow 0.2s;
+}
+    
+.project-card:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+}
+
+.project-info {
+    color: #000000;
+    text-align: left;
+    width: 100%;
+}
+
+.title-text{
+    font-size: 24px;
+}
+
+.desc-text{
+    font-size: 18px;
+}
