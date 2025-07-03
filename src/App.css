@@ -1,0 +1,15 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  min-height: 100vh;
+}
+
+#root {
+  background-color: #FFFFFF;
+  min-height: 100vh;
+}
+
+h1, h2, ul{ /* Remove the line-height below the headers */
+  line-height: 0;
+}
