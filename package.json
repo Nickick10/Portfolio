@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Nickick10.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
@@ -30,7 +29,6 @@
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.34.1",
     "vite": "^7.0.0"
-  }
-  
+  },
+  "homepage": "https://Nickick10.github.io/Portfolio"
 }
-
