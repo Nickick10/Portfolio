@@ -6,7 +6,7 @@ import './ProjectsPages.css';
 
 const MoneyManProject = () => {
     return (
-        <div className="money-man-project">
+        <div className="project">
             {/* Title Section */}
             <div className="title-section">
                 <img src={MMTitle} alt="Money-Man Title" className="title-image" />
@@ -108,8 +108,6 @@ const MoneyManProject = () => {
                     </div>
                 </div>
             </div>
-
-
         </div>
     );
 };

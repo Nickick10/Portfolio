@@ -1,4 +1,4 @@
-.money-man-project {
+.project {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -98,7 +98,7 @@
     text-align: center;
 }
 
-.project-image {
+.project .project-image {
     max-width: 100%;
     height: auto;
     border-radius: 15px;
@@ -106,7 +106,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.project-image:hover {
+.project .project-image:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
