@@ -37,27 +37,27 @@ const MoneyManProject = () => {
                     <div className="features-grid">
                         <div className="feature-card">
                             <h3>💰 Budget</h3>
-                            <p>Set and manage budgets for different spending categories to control your finances</p>
+                            <p>Set and manage budgets for different spending categories to control your finances.</p>
                         </div>
                         <div className="feature-card">
                             <h3>📂 Categories</h3>
-                            <p>Create and customize spending categories to organize your transactions</p>
+                            <p>Create and customize spending categories to organize your transactions.</p>
                         </div>
                         <div className="feature-card">
                             <h3>🚫 Spending Limits</h3>
-                            <p>Set spending limits for categories and receive alerts when approaching thresholds</p>
+                            <p>Set spending limits for categories and receive alerts when approaching thresholds.</p>
                         </div>
                         <div className="feature-card">
                             <h3>📝 Activity Log</h3>
-                            <p>Track all your financial activities with detailed transaction logging</p>
+                            <p>Track all your financial activities with detailed transaction logging.</p>
                         </div>
                         <div className="feature-card">
                             <h3>📊 Pie Chart Visualization</h3>
-                            <p>Visualize your spending patterns with interactive pie charts</p>
+                            <p>Visualize your spending patterns with interactive pie charts.</p>
                         </div>
                         <div className="feature-card">
                             <h3>🔔 Notifications</h3>
-                            <p>Receive alerts and notifications for budget limits and important financial events</p>
+                            <p>Receive alerts and notifications for budget limits and important financial events.</p>
                         </div>
                     </div>
                 </div>
@@ -87,23 +87,38 @@ const MoneyManProject = () => {
                     <div className="process-timeline">
                         <div className="feature-card">
                             <h3>1. Sprints</h3>
-                            <p>Before each sprint we started by creating user scenarios and created wireframe designes of what we are aiming to create</p>
+                            <p>
+                                Before each sprint we started by creating user scenarios 
+                                and created wireframe designes of what we are aiming to create.
+                            </p>
                         </div>
                         <div className="feature-card">
                             <h3>2. Database Design</h3>
-                            <p>Designed Firebase Realtime Database schema for efficient data storage and retrieval</p>
+                            <p>
+                                Designed Firebase Realtime Database schema for 
+                                efficient data storage and retrieval.
+                            </p>
                         </div>
                         <div className="feature-card">
                             <h3>3. Creating All Screens</h3>
-                            <p>Developed all the application screens including login, dashboard, and various feature screens</p>
+                            <p>
+                                Developed all the application screens including 
+                                login, dashboard, and various feature screens.
+                            </p>
                         </div>
                         <div className="feature-card">
                             <h3>4. Data Integration</h3>
-                            <p>Implemented data creation and retrieval functionality throughout the app, including pie chart and activity log screens</p>
+                            <p>
+                                Implemented data creation and retrieval functionality 
+                                throughout the app, including pie chart and activity log screens.
+                            </p>
                         </div>
                         <div className="feature-card">
                             <h3>5. Testing</h3>
-                            <p>Tested everything thoroughly to ensure all features work correctly for the final version</p>
+                            <p>
+                                Tested everything thoroughly to ensure all features work 
+                                correctly for the final version.
+                            </p>
                         </div>
                     </div>
                 </div>
