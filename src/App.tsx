@@ -11,7 +11,7 @@ import Projects from './pages/Projects';
 import MoneyManProject from './project-pages/MoneyManProject';
 import SqueezeProject from './project-pages/SqueezeProject';
 import CatChaosProject from './project-pages/CatChaosProject';
-// import RareTaskProject from './project-pages/RareTaskProject';
+import RareTaskProject from './project-pages/RareTaskProject';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         <Route path="/projects/money-man" element={<MoneyManProject />} />
         <Route path="/projects/squeeze" element={<SqueezeProject />} />
         <Route path="/projects/catchaos" element={<CatChaosProject />} />
-        {/* <Route path="/projects/rare-task-reminder" element={<RareTaskProject />} /> */}
+        <Route path="/projects/rare-task-reminder" element={<RareTaskProject />} />
       </Routes>
     </>
   );
