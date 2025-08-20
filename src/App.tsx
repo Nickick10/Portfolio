@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 // import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-// import Experience from './pages/Experience';
+import Experience from './pages/Experience';
 // import Contact from './pages/Contact';
 
 import MoneyManProject from './project-pages/MoneyManProject';
@@ -21,7 +21,7 @@ function App() {
         {/* <Route path="/" element={<Home />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        {/* <Route path="/experience" element={<Experience />} /> */}
+        <Route path="/experience" element={<Experience />} />
         {/* <Route path="/contact" element={<Contact />} /> */}
 
         <Route path="/projects/money-man" element={<MoneyManProject />} />
